@@ -116,6 +116,7 @@ class App extends Component {
                     onToggleDone={this.onToggleDone}
                 />
                 <ItemAddForm onItemAdded={this.addItem} />
+                <span className="footer">Sergey Gurin 2020. All Rights Reserved.</span>
             </div>
         );
     }
